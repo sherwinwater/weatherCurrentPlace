@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(40, 100, 200), rgb(100, 120, 10));
+}
+
+.icon {
+  padding-left: 50%;
+  padding-top: 20px;
+}
+.location {
+  padding-top: 40px;
+  height: 30vh;
+  width: 50%;
+}
+.temperature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+.degree-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: darkred;
+  font-size: 30px;
+}
+
+.temperature-description {
+  padding-top: 20px;
+}
